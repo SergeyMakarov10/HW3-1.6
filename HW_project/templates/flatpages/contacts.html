@@ -1,0 +1,14 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+    <u>You can find us:</u>
+    <br>
+<h2><em><span style="color: #000080;">{{ flatpage.content }}</span></em></h2>
+{% endblock content %}
+<p><em><span style="color: #000080;">Текст сделать красным и крупным</span></em></p>
